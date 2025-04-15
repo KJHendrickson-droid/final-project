@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-* {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  
+* {padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -59,9 +59,5 @@ li {
   font-weight: bold;
   padding: 8px;
 }
-.nav__link:hover {
-  text-decoration: underline;
-}
-.nav__link--primary:hover {
-  text-decoration: none;
+
 }
