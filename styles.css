@@ -110,6 +110,10 @@ nav {
   align-items: center;
 }
 
+header {
+  position: relative;
+}
+
 header .row {
   display: flex;
   justify-content: space-between;
@@ -117,6 +121,9 @@ header .row {
 }
 
 .header__description {
+  width: 100%;
+  max-width: 512px;
+  margin: 0 auto;
   text-align: center;
   display: flex;
   flex-direction: column;
