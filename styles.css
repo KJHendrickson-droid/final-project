@@ -29,12 +29,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  display: flex;
-}
-li {
-  list-style-type: none;
-}
 .nav__row {
   display: flex;
   justify-content: space-between;
