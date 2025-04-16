@@ -19,7 +19,9 @@ section {
 
 nav {
   display: flex;
-  padding-top: 32px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
 }
 
 a {
@@ -27,6 +29,12 @@ a {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+}
 .nav__row {
   display: flex;
   justify-content: space-between;
@@ -34,7 +42,7 @@ a {
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -76,4 +84,3 @@ a {
 .nav__link {
   margin: 0 24px;
 }
-
