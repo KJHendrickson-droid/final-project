@@ -47,6 +47,9 @@ a {
 p {
   line-height: 1.5;
 }
+div {
+  display: block;
+}
 
 .row {
   width: 100%;
