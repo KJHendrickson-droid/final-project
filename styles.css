@@ -120,6 +120,10 @@ header .row {
   align-items: center;
 }
 
+.header__wrapper {
+  display: flex;
+}
+
 .header__description {
   width: 100%;
   max-width: 512px;
