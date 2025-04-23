@@ -19,12 +19,6 @@ body {
   margin: 0 auto;
 }
 
-.nav__row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .row__narrow {
   width: 100%;
   max-width: 1024px;
@@ -51,26 +45,12 @@ header {
 }
 
 img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
+  width: 100%;
 }
 
 a {
   display: inline;
   text-decoration: none;
-}
-
-p {
-  line-height: 1.5;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-end: 0px;
-  margin-inline-start: 0px;
-}
-
-.div {
-  display: block;
 }
 
 .section__tag {
@@ -149,7 +129,6 @@ button {
   position: relative;
   transition: all 300ms;
 }
-
 
 .nav__link--primary {
   margin: 0;
