@@ -13,15 +13,41 @@ body {
   overflow-x: hidden;
 }
 
+.row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row__narrow {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 90px 0;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+section {
+  padding: 0 32px;
+}
+
 header {
   padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-section {
-  padding: 0 32px;
 }
 
 img {
@@ -43,10 +69,6 @@ p {
   margin-inline-start: 0px;
 }
 
-.purple {
-  color: #6415ff;
-}
-
 div {
   display: block;
 }
@@ -57,10 +79,6 @@ div {
   letter-spacing: 1.6px;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-.container {
-  padding: 96px;
 }
 
 .section__title {
@@ -79,19 +97,6 @@ div {
   line-height: 1.625;
 }
 
-.row {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-h4 {
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
 button {
   cursor: pointer;
 }
@@ -100,24 +105,41 @@ button {
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 32px;
 }
 
 .nav__row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__logo {
   display: flex;
   align-items: center;
+  margin: 8px 0;
+  padding: 0 32px;
 }
 
 .nav__logo--img {
   width: 40px;
   height: 40px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2px;
+}
+.nav__link {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 4px;
+  letter-spacing: 0.35px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  transition: all 300ms;
 }
 .nav__logo--title {
   font-size: 24px;
@@ -161,9 +183,8 @@ nav {
   display: none;
   background: transparent;
   border: none;
-  transition: all 300ms  ease;
+  transition: all 300ms ease;
 }
-
 
 /* HEADER */
 
