@@ -113,11 +113,12 @@ nav {
 }
 
 .nav__links {
-  font-size: 16px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   padding-bottom: 2px;
 }
+
 .nav__link {
   margin: 0 24px;
   font-size: 14px;
@@ -133,7 +134,7 @@ nav {
   margin: 0;
   padding: 10px 32px;
   margin-top: 2px;
-  border-radius: 9999px;
+  border-radius: 999px;
   background-color: #6415ff;
   color: #fff;
   line-height: 1.5;
@@ -141,6 +142,7 @@ nav {
   width: auto;
   transition: all 300ms;
 }
+
 .login {
   margin-left: 48px;
 }
@@ -161,8 +163,10 @@ header .row {
 }
 
 .header__description {
+  width: 40%;
   text-align: center;
   display: flex;
+  
   flex-direction: column;
   align-items: center;
 }
