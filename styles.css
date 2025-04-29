@@ -307,18 +307,12 @@ header .row {
 
 #quality .row {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
-#quality .section__title,
-#values .section__title {
- line-height: 1.5;  
-}
-
-.quality__description {
-  max-width: 576px;
-  margin-right: 64px;
+.quailty__img--wrapper {
+  width: 50%;
 }
 
 .quailty__img--wrapper {
