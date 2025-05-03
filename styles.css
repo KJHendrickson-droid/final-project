@@ -698,7 +698,7 @@ header .row {
   margin-top: 40px;
 }
 
-.testimonial__rating {
+.testimonial__rating i {
   color: rgba(246, 173, 85, 0);
   margin-right: 2px;
   margin-top: 4px;
