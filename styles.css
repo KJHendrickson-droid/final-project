@@ -71,6 +71,11 @@ p {
   letter-spacing: 0.025px;
 }
 
+#pricing .section__title,
+#features .section__title {
+  text-align: center;
+}
+
 .section__para {
   font-size: 18px;
   font-weight: 500;
