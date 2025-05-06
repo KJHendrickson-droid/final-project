@@ -952,7 +952,7 @@ footer {
   margin-top: 24px;
 }
 
-.footer__dividerd {
+.footer__divider {
   width: 100%;
   height: 2px;
   margin: 64px 0;
@@ -1002,7 +1002,7 @@ footer {
   align-items: center;
   border-radius: 50%;
   z-index: 2;
-  cursor: pointer
+  cursor: pointer;
   transition: all 300ms;
 }
 
