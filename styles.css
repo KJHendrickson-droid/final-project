@@ -1057,7 +1057,9 @@ footer {
   .nav__links {
     display: none;
   }
-
+  .container {
+    padding: 60px 0;
+  }
   .btn__menu {
     display: block;
   }
@@ -1081,7 +1083,7 @@ footer {
     font-size: 24px;
   }
   .header__description--para {
-    margin: 2px 0;
+    margin: 16px 0;
   }
   .header__customers {
     padding-right: 0;
@@ -1155,6 +1157,7 @@ footer {
     text-align: center;
     width: 100%;
     max-width: 512px;
+    margin-bottom: 32px;
   }
   .start__buttons {
     width: auto;
@@ -1173,11 +1176,10 @@ footer {
 }
 
 @media (max-width: 550px) {
- 
   .container {
-    padding: 80px 0;
+    padding: 60px 0;
   }
- 
+
   .header__row {
     flex-direction: column;
     align-items: center;
@@ -1189,6 +1191,18 @@ footer {
   .header__customers--title {
     margin-bottom: 12px;
   }
+  .header__email--input {
+    font-size: 12px;
+    padding: 16px 160px 16px 24px;
+    border-radius: 400px;
+  }
+
+  .header__email--btn {
+    padding: 16px 0;
+    font-size: 12px;
+    margin: 0;
+    width: 140px;
+  }
 
   .features {
     justify-content: center;
@@ -1198,15 +1212,8 @@ footer {
     max-width: 384px;
   }
 
-  .feature__title {
-    font-size: 20px;
-  }
   .section__para {
     font-size: 14px;
-  }
-
-  .section__title {
-    font-size: 24px;
   }
 
   #quality .row,
@@ -1216,8 +1223,18 @@ footer {
   #quality {
     padding: 0 52px;
   }
+  #values .section-tag,
+  #steps .section-tag #steps .section__tag {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+
   #features .section__title,
-  #pricing .section__title {
+  #pricing .section__title,
+  #quality .section__title,
+  #values .section__title,
+  #steps .section__title,
+  #testimonials .section__title {
     font-size: 24px;
   }
 
@@ -1273,15 +1290,24 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .plan__price {
-    font-size: 24px;
+  .plan__price,
+  .feature__title,
+  .value__name,
+  .testimonial__name {
+    font-size: 18px;
   }
 
   .testimonials__description {
     padding-left: 0px;
   }
   .start__title {
-    font-size: 24px;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .start__button.btn {
+    padding: 12px 24px;
+    font-size: 12px;
   }
 
   .footer__columns {
