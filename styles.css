@@ -1024,7 +1024,7 @@ footer {
 
 /* MOBILE RESPONSIVENESS */
 
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
   header .row {
     align-items: flex-end;
   }
@@ -1049,7 +1049,7 @@ footer {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
   .nav__links {
     display: none;
   }
@@ -1245,7 +1245,7 @@ footer {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 576px) {
   .section__title {
     line-height: 1.25;
   }
