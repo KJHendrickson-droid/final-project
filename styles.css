@@ -15,7 +15,7 @@ body {
 
 .row {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  padding: 90px 0;
+  padding: 96px 0;
 }
 
 .purple {
@@ -294,6 +294,7 @@ header .row {
 #pricing .section__title {
   text-align: center;
 }
+
 #features .section__para {
   text-align: center;
   max-width: 576px;
@@ -308,6 +309,7 @@ header .row {
 .feature {
   width: calc(100% / 3);
 }
+
 .feature__row {
   display: flex;
   align-items: flex-start;
@@ -375,6 +377,7 @@ header .row {
   z-index: 2;
   display: flex;
 }
+
 .quality__img {
   z-index: 1;
 }
@@ -392,6 +395,7 @@ header .row {
   z-index: 0;
   display: block;
 }
+
 /* STEPS */
 
 #steps .row {
@@ -817,7 +821,7 @@ header .row {
   background: rgb(229, 231, 235);
 }
 
-/* START */
+/* START - CALL TO ACTION*/
 
 .start__container {
   padding: 96px 0;
@@ -884,7 +888,7 @@ header .row {
   left: 0;
   width: 320px;
   height: 320px;
-  transform: translateX(-80%) translateY(128%) scaleX(1) scaleY(1);
+  transform: translateX(-80px) translateY(128px) scaleX(1) scaleY(1);
   z-index: 1;
   opacity: 0.5;
 }
@@ -894,7 +898,7 @@ header .row {
   right: 0;
   width: 320px;
   height: 320px;
-  transform: translateX(80%) translateY(-256%);
+  transform: translateX(80px) translateY(-256px);
   z-index: 1;
   opacity: 0.5;
 }
