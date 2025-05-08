@@ -251,7 +251,6 @@ header .row {
   transition: all 300ms;
 }
 
-
 .header__customers--title {
   margin-top: 80px;
   color: #a0aec0;
@@ -883,9 +882,10 @@ header .row {
   position: absolute;
   bottom: 0;
   left: 0;
-  transform: translateX(-80%) translateY(128%) scaleX(1) scaleY(1);
   width: 320px;
   height: 320px;
+  transform: translateX(-80%) translateY(128%) scaleX(1) scaleY(1);
+  fill: rgb(100, 21, 255);
   z-index: 1;
   opacity: 0.5;
 }
@@ -893,12 +893,13 @@ header .row {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translateX(80%) translateY(-256%);
   width: 320px;
   height: 320px;
+  transform: translateX(80%) translateY(-256%);
   z-index: 1;
   opacity: 0.5;
 }
+
 /* FOOTER */
 
 footer {
