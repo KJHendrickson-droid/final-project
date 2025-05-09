@@ -1111,7 +1111,7 @@ footer {
     max-width: none;
   }
   .section__para {
-    font-size: 14px;
+    font-size: 16px;
   }
   .section__title {
     font-size: 36px;
@@ -1137,8 +1137,7 @@ footer {
     align-items: center;
   }
 
-  .quality__description
-  .steps__description {
+  .quality__description .steps__description {
     padding: 0px;
     margin-top: 64px;
     text-align: center;
@@ -1232,6 +1231,9 @@ footer {
   .nav__logo {
     margin: 8px 0;
   }
+  h1 {
+    font-size: 30px;
+  }
 
   .header__email {
     flex-direction: column;
@@ -1255,12 +1257,9 @@ footer {
     line-height: 1.5;
   }
   .header__customer--title {
-    font-size: 14px;
-    line-spacing: 0.05em;
-  }
-  h1 {
     font-size: 30px;
   }
+
   .header__description--para {
     margin: 20px;
   }
@@ -1403,7 +1402,7 @@ footer {
   .feature__title,
   .value__name,
   .testimonial__name {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .plan__price {
@@ -1577,5 +1576,10 @@ footer {
     font-size: 14px;
     text-align: center;
     line-height: 1.5;
+  }
+}
+@media {
+  .container {
+    padding: 60px 0;
   }
 }
