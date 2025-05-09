@@ -1091,6 +1091,7 @@ footer {
   .header__customers--title,
   .header__img--wrapper {
     margin-top: 48px;
+    margin-bottom: 48px;
   }
   .features {
     max-width: 768px;
@@ -1119,7 +1120,11 @@ footer {
   #values .row {
     flex-direction: column-reverse;
   }
-
+  .value__img,
+  .value__title {
+    justify-content: center;
+    align-items: center;
+  }
   #steps .row,
   #testimonials .row {
     flex-direction: column;
@@ -1150,10 +1155,12 @@ footer {
     width: 100%;
     max-width: 448px;
   }
-  .values__list {
+  .values__list,
+  .value__img--wrapper {
     flex-direction: column;
-    max-width: 320px;
+    align-items: center;
   }
+
   .value:nth-child(1) .value.plan:nth-child(2) {
     margin-top: 40px;
   }
