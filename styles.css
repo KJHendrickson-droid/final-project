@@ -225,10 +225,12 @@ section {
   border: none;
 }
 
-.menu--open .modal {
-  visibility: visible;
-  opacity: 1;
-  transform: translateX(0);
+.btn__menu {
+  display: none;
+  background: transparent;
+  border: none;
+  transition: all 300ms ease;
+
 }
 
 .btn__menu--close {
@@ -1083,6 +1085,12 @@ footer {
 }
 
 /* MOBILE RESPONSIVENESS */
+
+@media (max-width: 1280px) {
+  
+  .btn__menu {
+    display: block;
+  }
 
 @media (max-width: 980px) {
   .section__title {
