@@ -1052,6 +1052,9 @@ footer {
   .testimonial__description {
     width: -41.6667%;
   }
+  .plan__button {
+    max-width: none
+  }
 }
 
 @media (max-width: 750px) {
@@ -1459,11 +1462,11 @@ footer {
 }
 
 @media (max-width: 400px) {
+  .container {
+    padding: 60px 0;
+  }
   .section__title {
     line-height: 1.25;
-  }
-  .container {
-    padding: 80px 0;
   }
   .nav__logo {
     margin: 8px 0;
@@ -1519,8 +1522,10 @@ footer {
   .steps__list {
     margin-top: 48px;
   }
-  .btn {
+  .plan__button {
     line-height: 1.5;
+    font-size: 12px;
+    max-width: none;
   }
   .testimonial__para {
     margin-bottom: 32px;
@@ -1577,9 +1582,5 @@ footer {
     text-align: center;
     line-height: 1.5;
   }
-}
-@media {
-  .container {
-    padding: 60px 0;
-  }
+} {
 }
