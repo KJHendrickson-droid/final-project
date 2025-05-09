@@ -1131,6 +1131,13 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+
+  .quality__description
+  .steps__description {
+    padding: 0px;
+    margin-top: 64px;
+    text-align: center;
+  }
   .step {
     flex-direction: column;
     align-items: center;
@@ -1141,7 +1148,6 @@ footer {
   .values__description,
   .testimonials__description {
     padding: 0px;
-    margin-top: 64px;
     text-align: center;
   }
 
@@ -1312,6 +1318,12 @@ footer {
     margin-left: 0px;
     margin-top: 8px;
   }
+
+  .testimonial__bottom {
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+  }
   .testimonial__img {
     height: 64px;
     width: 64px;
@@ -1320,7 +1332,7 @@ footer {
   .testimonial__buttons {
     margin-top: 32px;
   }
-  
+
   #features .section__title,
   #pricing .section__title,
   #quality .section__title,
