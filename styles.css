@@ -1126,6 +1126,11 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
+  #quality .section__tag,
+  #steps .section__tag {
+    padding-top: 64px;
+  }
   #steps .row,
   #testimonials .row {
     flex-direction: column;
